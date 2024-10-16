@@ -1,0 +1,68 @@
+.navbar-nav .nav-link {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #163dfc;
+  text-decoration: underline;
+}
+
+/* Login Card Styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.card-body h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input field styling */
+.form-control {
+  border-radius: 20px;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+/* Submit Button Styling */
+.btn-primary {
+  background: linear-gradient(to right, #fc4160ee);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #299ae6, #1f89da);
+  box-shadow: 0px 4px 15px rgba(255, 64, 129, 0.4);
+  transform: translateY(-3px);
+}
+
+/* Sign up link */
+a {
+  color: #2669f9;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #eb2424;
+}
+
+/* Responsive Spacing */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+      font-size: 1.5rem;
+  }
+
+  .card {
+      margin-top: 20px;
+  }
+}
